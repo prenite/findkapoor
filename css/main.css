@@ -1,0 +1,455 @@
+@font-face {
+    font-family: '다운폰트';
+    src: url(../FuturaLT-Book.woff)
+}
+
+#wrap {
+    width: 100%;
+}
+
+
+/*메인*/
+
+#main_img {
+    width: 100%;
+    height: 970px;
+    position: relative;
+    overflow: hidden;
+}
+
+#main_img .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 970px;
+    background: url(../img/sub_pc.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#main_img .img2 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 970px;
+    background: url(../img/ban_pc01.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#main_img .img3 {
+    position: absolute;
+    top: 0;
+    left: 200%;
+    width: 100%;
+    height: 970px;
+    background: url(../img/cap.jpg) 0 no-repeat;
+    background-size: 100%;
+}
+
+/*상단*/
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    transition: all 0.5s;
+    background-color: white;
+}
+
+
+#header .box.on {
+    background-color: white;
+}
+
+#header_in {
+    margin: 0 auto;
+    width: 1690px;
+    height: 80px;
+}
+
+
+#logo {
+    margin: 30px 20px 0 0;
+    float: left;
+    width: 200px;
+    height: 40px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#nav {
+    float: left;
+    height: 80px;
+    padding-bottom: 20px;
+}
+
+
+#nav li {
+    float: left;
+    padding-top: 35px;
+    margin-right: 20px;
+}
+
+#nav li :last-child {
+    margin-right: 0px;
+}
+
+#nav li a {
+    font-size: 14px;
+    font-family: '다운폰트';
+}
+
+
+#header_in .info {
+    float: right;
+}
+
+#header_in .info li {
+    float: left;
+    margin-top: 50px;
+    margin-right: 11px;
+    font-size: 11px;
+    font-family: '다운폰트';
+}
+
+
+#header .mn_area {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#header .mn_area h3 {
+    margin: 50px 0 0 115px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: '다운폰트';
+}
+
+#header .mn_area p {
+    margin: 25px 0 0 115px;
+    line-height: 30px;
+}
+
+#header .mn_area p a {
+    font-size: 15px;
+    font-family: '다운폰트';
+}
+
+
+#txt_box {
+    position: absolute;
+    top: 700px;
+    left: 800px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 170px;
+    text-align: center;
+}
+
+#txt_box p {
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: '다운폰트';
+}
+
+#txt_box a {
+    margin: 0 auto;
+    display: block;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #fff;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-family: '다운폰트';
+}
+
+
+
+
+
+
+/*콘텐츠*/
+
+#contents {
+    width: 100%;
+    height: 4230px;
+}
+
+
+
+
+/*추천상품*/
+
+#RECOMMENDED {
+    width: 100%;
+    height: 1050px;
+}
+
+#RECOMMENDED_h {
+    margin: 0 auto;
+    width: 100%;
+    height: 175px;
+    text-align: center;
+}
+
+#RECOMMENDED_h h3 {
+    padding-top: 100px;
+    font-size: 20px;
+    font-family: '다운폰트';
+}
+
+#RECOMMENDED_b {
+    width: 100%;
+    height: 875px;
+}
+
+#RECOMMENDED ul {
+    width: 100%;
+    height: 735px;
+}
+
+#RECOMMENDED li {
+    float: left;
+    width: 24.8%;
+    height: 735px;
+    margin-right: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#RECOMMENDED li:last-child {
+    margin-right: 0;
+}
+
+#RECOMMENDED li img {
+    width: 475px;
+    height: 595px;
+}
+
+#RECOMMENDED li h4 {
+    padding-top: 35px;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#RECOMMENDED li p {
+    padding-top: 12px;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*성별상품*/
+
+#gender {
+    width: 100%;
+    height: 913px;
+}
+
+#gender img {
+    width: 944px;
+    height: 913px;
+    margin-right: 5px;
+}
+
+#best {
+    width: 100%;
+    height: 1070px;
+}
+
+#best_h {
+    margin: 0 auto;
+    width: 100%;
+    height: 175px;
+    text-align: center;
+}
+
+#best_h h3 {
+    padding-top: 100px;
+    font-size: 20px;
+    font-family: '다운폰트';
+}
+
+#best_b {
+    width: 100%;
+    height: 875px;
+}
+
+#best_b li {
+    float: left;
+    width: 24.8%;
+    height: 735px;
+    margin-right: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#best_b li:last-child {
+    margin-right: 0px;
+}
+
+#best_b li img {
+    width: 475px;
+    height: 595px;
+}
+
+#best_b li h4 {
+    padding-top: 35px;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#best_b li p {
+    padding-top: 12px;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+
+#sub_img {
+    padding-top: 160px;
+    width: 100%;
+    height: 880px;
+    background: url(../img/ban_pc01.jpg)no-repeat;
+    background-size: 100%;
+}
+
+#sub_box {
+    padding-top: 570px;
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    height: 115px;
+    text-align: center;
+}
+
+#sub_box p {
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: '다운폰트';
+}
+
+#sub_box a {
+    margin: 0 auto;
+    display: block;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #fff;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-family: '다운폰트';
+}
+
+#sub_logo {
+    text-align: center;
+    width: 100%;
+    height: 260px;
+}
+
+#sub_logo img {
+    width: 35px;
+    height: 50px;
+}
+
+
+
+
+
+
+/*하단*/
+
+
+#footer_in {
+    width: 100%;
+    height: 318px;
+    border-top: 1px solid #000;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#address {
+    float: left;
+    width: 660px;
+    height: 180px;
+    padding-top: 55px;
+    padding-left: 100px;
+    color: #777;
+    line-height: 20px;
+}
+
+#footer_in p {
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+#footer_in .info {
+    padding-bottom: 25px;
+}
+
+#footer_in .info a {
+    color: #777;
+}
+
+#footer_in .info img {
+    width: 30px;
+    height: 20px;
+}
+
+#footer_in span {
+    font-size: 10px;
+}
+
+#contact {
+    float: left;
+    width: 330px;
+    height: 85px;
+    padding-top: 55px;
+    color: #777;
+    line-height: 20px;
+}
+
+#contact a {
+    font-size: 12px;
+    color: #777;
+}
+
+#sns {
+    float: left;
+    padding-top: 55px;
+    padding-left: 100px;
+    padding-right: 200px;
+    height: 85px;
+    line-height: 20px;
+}
+
+#sns a {
+    font-size: 12px;
+    color: #777;
+}
+
+#lan {
+    font-size: 12px;
+    padding-top: 55px;
+}
